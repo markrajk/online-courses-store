@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="robots" content="noindex">
+    <title>Kursevi | My Courses</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="public/css/main.css">
+</head>
+
+<body>
+    <!--------- <HEADER> --------->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav--container">
+
+                <div class="nav--item nav--item--00">
+                    <div class="nav--logo">
+                        <a href="#" class="nav--link"><img src="img/menu-button.png" alt="burger-menu"
+                                class="burger"></a>
+                    </div>
+
+                    <div class="dropdown--content burger--ddc left">
+                        <div class="triangle"></div>
+                        <div class="dropdown--content--header">
+
+                            <div class="">
+                                <div class="personal--btn">
+                                    <div class="initials">MR</div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="dropdown--content--header--name">Marko Rajkovic</span>
+                                <span class="dropdown--content--header--email">marko@marko.com</span>
+                            </div>
+                        </div>
+                        <div class="dropdown--content--item" id="burger--login">
+                            <div class="dropdown--categories--btn login--btn">
+                                <a href="#" class="dropdown--categories--link">Log In</a>
+                            </div>
+                        </div>
+
+                        <div class="dropdown--content--item" id="burger--signup">
+                            <div class="dropdown--categories--btn signup--btn">
+                                <a href="#" class="dropdown--categories--link">Sign Up</a>
+                            </div>
+                        </div>
+                        <div class="dropdown--content--item">
+                            <div class="dropdown--categories--btn">
+                                <img src="img/flatIcons/webDesign/032-coding.png" alt="img"
+                                    class="dropdown--categories--img">
+                                <a href="search.html?search=developement"
+                                    class="dropdown--categories--link">Developement</a>
+                            </div>
+                        </div>
+                        <div class="dropdown--content--item">
+                            <div class="dropdown--categories--btn">
+                                <img src="img/flatIcons/webDesign/046-pencil.png" alt="img"
+                                    class="dropdown--categories--img">
+                                <a href="search.html?search=design" class="dropdown--categories--link">Design</a>
+                            </div>
+                        </div>
+                        <div class="dropdown--content--item">
+                            <div class="dropdown--categories--btn">
+                                <img src="img/flatIcons/webDesign/043-idea.png" alt="img"
+                                    class="dropdown--categories--img">
+                                <a href="search.html?search=business" class="dropdown--categories--link">Business</a>
+                            </div>
+                        </div>
+                        <div class="dropdown--content--item">
+                            <div class="dropdown--categories--btn">
+                                <img src="img/flatIcons/webDesign/031-computer-2.png" alt="img"
+                                    class="dropdown--categories--img">
+                                <a href="search.html?search=software" class="dropdown--categories--link">IT &
+                                    Software</a>
+                            </div>
+                        </div>
+                        <div class="dropdown--content--item">
+                            <div class="dropdown--categories--btn">
+                                <img src="img/flatIcons/webDesign/050-target.png" alt="img"
+                                    class="dropdown--categories--img">
+                                <a href="search.html?search=marketing" class="dropdown--categories--link">Marketing</a>
+                            </div>
+                        </div>
+                        <div class="dropdown--content--item" id="burger--mycourses">
+                            <div class="dropdown--categories--btn">
+                                <a href="mycourses.html" class="dropdown--categories--link">My Courses</a>
+                            </div>
+                        </div>
+                        <div class="dropdown--content--item" id="burger--logout">
+                            <div class="dropdown--categories--btn">
+                                <a href="#" class="dropdown--categories--link logout--btn">Logout</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nav--item nav--item--01">
+                    <div class="nav--logo">
+                        <a href="index.html" class="nav--link"><img src="img/logo.png" alt="logo" class="logo"></a>
+                    </div>
+                </div>
+                <div class="nav--item nav--item--02 dropdown">
+                    <div class="nav--dropdown--btn">
+                        <a href="search.html?search=" class="nav--link">Categories</a>
+                        <div class="dropdown--content categories--ddc left">
+                            <div class="triangle"></div>
+                            <div class="dropdown--content--item">
+                                <div class="dropdown--categories--btn">
+                                    <img src="img/flatIcons/webDesign/032-coding.png" alt="img"
+                                        class="dropdown--categories--img">
+                                    <a href="search.html?search=developement"
+                                        class="dropdown--categories--link">Developement</a>
+                                </div>
+                            </div>
+                            <div class="dropdown--content--item">
+                                <div class="dropdown--categories--btn">
+                                    <img src="img/flatIcons/webDesign/046-pencil.png" alt="img"
+                                        class="dropdown--categories--img">
+                                    <a href="search.html?search=design" class="dropdown--categories--link">Design</a>
+                                </div>
+                            </div>
+                            <div class="dropdown--content--item">
+                                <div class="dropdown--categories--btn">
+                                    <img src="img/flatIcons/webDesign/043-idea.png" alt="img"
+                                        class="dropdown--categories--img">
+                                    <a href="search.html?search=business"
+                                        class="dropdown--categories--link">Business</a>
+                                </div>
+                            </div>
+                            <div class="dropdown--content--item">
+                                <div class="dropdown--categories--btn">
+                                    <img src="img/flatIcons/webDesign/031-computer-2.png" alt="img"
+                                        class="dropdown--categories--img">
+                                    <a href="search.html?search=software" class="dropdown--categories--link">IT &
+                                        Software</a>
+                                </div>
+                            </div>
+                            <div class="dropdown--content--item">
+                                <div class="dropdown--categories--btn">
+                                    <img src="img/flatIcons/webDesign/050-target.png" alt="img"
+                                        class="dropdown--categories--img">
+                                    <a href="search.html?search=marketing"
+                                        class="dropdown--categories--link">Marketing</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav--item nav--item--03">
+                    <div class="nav--search">
+                        <form action="search.html" method="GET">
+                            <input type="text" name="search" id="search" autocomplete="off">
+                        </form>
+                    </div>
+                </div>
+                <!-- <div class="nav--item nav--item--04 dropdown">
+                        <div class="nav--dropdown--btn">
+                            <a href="#" class="nav--link">About Us</a>
+                            <div class="dropdown--content aboutus--ddc right">
+                                <div class="triangle"></div>
+                                <div class="dropdown--content--item">
+                                    <span>Learn more <a href="#" class="dropdown--content--link">About Us</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                <div class="nav--item nav--item--05 dropdown">
+                    <div class="nav--dropdown--btn">
+                        <a href="mycourses.html" class="nav--link">My Courses</a>
+                    </div>
+                </div>
+                <div class="nav--item nav--item--06">
+                    <div class="nav--btn btn--red login--btn">
+                        <a href="#" class="nav--link">LOG IN</a>
+                    </div>
+                </div>
+                <div class="nav--item nav--item--07">
+                    <div class="nav--btn btn--red signup--btn">
+                        <a href="#" class="nav--link">SIGN UP</a>
+                    </div>
+                </div>
+                <!-- <div class="nav--item nav--item--08">
+                        <div class="shoppingcart--btn">
+                            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
+                    </div> -->
+                <div class="nav--item nav--item--09">
+                    <div class="personal--btn">
+                        <div class="initials">MR</div>
+                    </div>
+                    <div class="dropdown--content personal--ddc right">
+                        <div class="triangle"></div>
+                        <div class="dropdown--content--header">
+                            <div class="">
+                                <div class="personal--btn">
+                                    <div class="initials">MR</div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="dropdown--content--header--name">Marko Rajkovic</span>
+                                <span class="dropdown--content--header--email">marko@marko.com</span>
+                            </div>
+                        </div>
+                        <div class="dropdown--content--item">
+                            <a href="#" class="personal--dropdown--link logout--btn">Logout</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nav--item nav--item--10">
+                    <div class="nav--logo">
+                        <a href="index.html" class="nav--link"><img src="img/logo.png" alt="logo" class="logo"></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--------- </HEADER> --------->
+
+
+    <div class="search--result">
+        <div class="search--result--header">
+            <h2>My courses</h2>
+        </div>
+        <div class="search--result--body">
+            <div class="container">
+
+                <div class="search--result--card">
+                    <div class="result--card--container">
+                        <div class="result--card--img">
+                            <img src="img/course/business-01.jpg" alt="course-image">
+                        </div>
+                        <div class="result--card--body">
+                            <h3>The Complete JavaScript Course 2019: Build Real Projects!</h3>
+                            <span class="result--card--price">$199.99</span>
+                            <span class="result--card--author">Pera Peric</span>
+                            <span class="result--card--rating">* * * * *</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--------- </PATTERN> --------->
+    <section class="pattern">
+        <div class="pattern--top"></div>
+        <div class="pattern--main">
+            <div class="pattern--text">
+                <h2>Get personalized recommendations</h2>
+                <p>Answer a few questions for your top picks</p>
+                <a href="search.html?search=" class="pattern--btn">Get started</a>
+            </div>
+        </div>
+    </section>
+    <!--------- </PATTERN> --------->
+
+    <!--------- <SIGN-UP POPUP> --------->
+    <div class="popup" id="signup--popup">
+        <div class="popup--container">
+            <div class="popup--header">
+                <p>Sign Up and Start Learning!</p>
+                <div class="popup--close">
+                    <div class="close--1"></div>
+                    <div class="close--2"></div>
+                </div>
+            </div>
+            <form action="index.html" method="" class="popup--form" id="signup--form">
+                <div class="popup--input--container">
+                    <i class="fas fa-user-alt"></i>
+                    <input type="text" name="signup--name" placeholder="Full Name">
+                    <div class="popup--tooltip">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="popup--input--container">
+                    <i class="fas fa-envelope"></i>
+                    <input type="text" name="signup--email" placeholder="Email">
+                    <div class="popup--tooltip">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="popup--input--container">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" name="signup--password" placeholder="Password">
+                    <div class="popup--tooltip">
+                        <p></p>
+                    </div>
+                </div>
+
+                <button class="popup--btn">SIGN UP</button>
+            </form>
+
+            <div class="popup--footer">
+                <p>Sign Up and Start Learning!</p>
+            </div>
+        </div>
+    </div>
+    <!--------- </SIGN-UP POPUP> --------->
+
+    <!--------- <LOG-IN POPUP> --------->
+    <div class="popup" id="login--popup">
+        <div class="popup--container">
+            <div class="popup--header">
+                <p>Sign Up and Start Learning!</p>
+                <div class="popup--close">
+                    <div class="close--1"></div>
+                    <div class="close--2"></div>
+                </div>
+            </div>
+            <form action="index.html" method="" class="popup--form" id="login--form">
+                <div class="popup--input--container">
+                    <i class="fas fa-envelope"></i>
+                    <input type="text" name="login--email" placeholder="Email">
+                    <div class="popup--tooltip">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="popup--input--container">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" name="login--password" placeholder="Password">
+                    <div class="popup--tooltip">
+                        <p></p>
+                    </div>
+                </div>
+
+                <button class="popup--btn">SIGN UP</button>
+            </form>
+
+            <div class="popup--footer">
+                <p>Sign Up and Start Learning!</p>
+            </div>
+        </div>
+    </div>
+    <!--------- </LOG-IN POPUP> --------->
+
+    <!--------- <BUY POPUP> --------->
+    <div class="popup" id="buy--popup">
+        <div class="popup--container">
+            <div class="popup--header">
+                <p>Thanks for Buying!</p>
+                <div class="popup--close">
+                    <div class="close--1"></div>
+                    <div class="close--2"></div>
+                </div>
+            </div>
+            <form action="mycourses.html" class="popup--form" id="buy--form">
+                <div class="popup--input--container">
+                    <i class="fas fa-user"></i>
+                    <input type="text" name="buy--name" placeholder="Card Holder">
+                    <div class="popup--tooltip">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="popup--input--container">
+                    <i class="fas fa-credit-card"></i>
+                    <input type="password" name="buy--cardnumber" placeholder="Card Number">
+                    <div class="popup--tooltip">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="popup--input--container">
+                    <i class="fas fa-key"></i>
+                    <input type="password" name="buy--securitycode" placeholder="Security Code">
+                    <div class="popup--tooltip">
+                        <p></p>
+                    </div>
+                </div>
+
+                <button class="popup--btn">BUY</button>
+            </form>
+
+            <div class="popup--footer">
+                <!-- <p>Sign Up and Start Learning!</p> -->
+            </div>
+        </div>
+    </div>
+    <!--------- </BUY POPUP> --------->
+
+
+    <!--------- <FOOTER> --------->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer--top">
+                <a href="search.html?search=" class="footer--btn">
+                    <img src="img/flatIcons/webDesign/008-color.png" alt="#" class="footer--btn--img"> All</a>
+                <a href="search.html?search=developement" class="footer--btn">
+                    <img src="img/flatIcons/webDesign/032-coding.png" alt="#" class="footer--btn--img"> Developement</a>
+                <a href="search.html?search=design" class="footer--btn">
+                    <img src="img/flatIcons/webDesign/046-pencil.png" alt="#" class="footer--btn--img"> Design</a>
+                <a href="search.html?search=business" class="footer--btn">
+                    <img src="img/flatIcons/webDesign/043-idea.png" alt="#" class="footer--btn--img"> Business</a>
+                <a href="search.html?search=software" class="footer--btn">
+                    <img src="img/flatIcons/webDesign/031-computer-2.png" alt="#" class="footer--btn--img"> IT &
+                    Software</a>
+                <a href="search.html?search=marketing" class="footer--btn">
+                    <img src="img/flatIcons/webDesign/050-target.png" alt="#" class="footer--btn--img"> Marketing</a>
+            </div>
+        </div>
+        <div class="footer--middle">
+            <div class="footer--outer--container">
+                <div class="footer--middle--container">
+                    <a href="index.html" class="nav--link"><img src="img/logo.png" alt="logo" class="logo"></a>
+                    <div class="copyright">Copyright © 2019</div>
+                </div>
+                <div class="resources"><a href="#">Resources</a></div>
+            </div>
+        </div>
+        <div class="footer--bottom"></div>
+    </footer>
+    <!--------- </FOOTER> --------->
+
+    <!-- <div>Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+
+    <script src="public/js/main.js"></script>
+    <script src="public/js/courses.js"></script>
+    <script src="public/js/myCourses.js"></script>
+</body>
+
+</html>
